@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Button from "../button";
 import Styles from "./welcome.module.scss";
+import BannerWelcome from "/public/images/bannerWelcome.png"
 
 const Welcome = () => {
   return (
@@ -12,7 +14,9 @@ const Welcome = () => {
         </p>
         <Button title="Aumentar vendas" kind="secundary"/>
       </div>
-      <div className={Styles.image}></div>
+      <div className={Styles.image}>
+        <Image src={BannerWelcome} alt="Banner Welcome"/>
+      </div>
     </div>
   );
 };

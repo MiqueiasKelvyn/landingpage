@@ -1,8 +1,13 @@
+@import "./mixins/colors.scss";
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinckMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira sans, Broid sans, Droid sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinckMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira sans,
+    Broid sans, Droid sans, Helvetica Neue, sans-serif;
+  background-color: $purple-color;
+  color: $white-color;
 }
 
 a {
